@@ -1,0 +1,65 @@
+/* Fundo do TableView */
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #2b2b2b;
+    -fx-background-color: #2b2b2b;
+    -fx-table-cell-border-color: #000000;
+}
+
+/* Cabeçalho da Tabela */
+.table-view .column-header {
+    -fx-background-color: #3c3f41;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #00ff00;
+    -fx-font-weight: bold;
+}
+
+/* Linhas da Tabela */
+.table-row-cell {
+    -fx-background-color: #323232;
+    -fx-text-background-color: #00ff00;
+}
+
+#txtProduto {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #00ff00;
+    -fx-prompt-text-fill: #888888;
+}
+
+#txtPreco {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #00ff00;
+    -fx-prompt-text-fill: #888888;
+}
+#txtFrete {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #00ff00;
+    -fx-prompt-text-fill: #888888;
+}
+#txtPrazo {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #00ff00;
+    -fx-prompt-text-fill: #888888;
+}
+#txtResultado {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #00ff00;
+    -fx-prompt-text-fill: #888888;
+}
