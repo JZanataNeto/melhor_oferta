@@ -54,6 +54,7 @@
     </HBox>
     <TableView fx:id="tblProduto" maxHeight="118.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@style.css">
       <columns>
+         <TableColumn fx:id="clOferta" prefWidth="75.0" text="oferta" />
           <TableColumn fx:id="clProduto" prefWidth="75.0" text="produto" />
           <TableColumn fx:id="clPreco" prefWidth="75.0" text="preco" />
           <TableColumn fx:id="clFrete" prefWidth="75.0" text="frete" />

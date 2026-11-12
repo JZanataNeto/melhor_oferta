@@ -26,6 +26,7 @@ public class OfertasController implements Initializable {
     @FXML private TextField txtPreco;
     @FXML private TextField txtProduto;
     @FXML private TextField txtResultado;
+    @FXML private TableColumn<Oferta, String> clOferta;
     @FXML private TableColumn<Oferta,String> clProduto;
     @FXML private TableColumn<Oferta,String> clPreco;
     @FXML private TableColumn<Oferta,String> clFrete;
@@ -76,6 +77,7 @@ public class OfertasController implements Initializable {
         limpar();
     }
     private void configuraColunas() {
+        clOferta.setCellValueFactory(new PropertyValueFactory<>("id"));
         clProduto.setCellValueFactory(new PropertyValueFactory<>("produto"));
         clPreco.setCellValueFactory(new PropertyValueFactory<>("preco"));
         clFrete.setCellValueFactory(new PropertyValueFactory<>("frete"));
